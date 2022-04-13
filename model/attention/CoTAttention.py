@@ -1,6 +1,8 @@
+from typing import Optional
+
 import numpy as np
 import torch
-from torch import flatten, nn
+from torch import flatten, nn, Tensor
 from torch.nn import init
 from torch.nn.modules.activation import ReLU
 from torch.nn.modules.batchnorm import BatchNorm2d
